@@ -8,8 +8,6 @@ Think of this like a virtual PowerShell User Group, with a lightning-demo format
 
 We'll be streaming on [YouTube](https://www.youtube.com/channel/UCtHKcGei3EjxBNYQCFZ3WNQ)
 
-** [Check out the agenda here](Agenda.md) **
-
 ### How do I submit a demo proposal?
 
 Just [submit an issue](https://github.com/PSPowerHour/PSPowerHour/issues/new)!  We need a title, your name, and a brief abstract - that's enough to get started!
@@ -51,7 +49,7 @@ It would be awesome if you follow up on community questions in one of these spot
 
 ### Can you get awesome-person-xyz to do a demo?
 
-We'll certainly be pestering folks, but if you know someone who has something awesome to talk about them, point them here and ask them to submit a proposal!
+We'll certainly be pestering folks, but if you know someone who has something awesome to talk about them, point them here and ask them to [submit a proposal](https://github.com/PSPowerHour/PSPowerHour/issues/new)!
 
 ### Can I pre-record a demo?
 
