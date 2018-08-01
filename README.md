@@ -14,7 +14,7 @@ Just [submit an issue](https://github.com/PSPowerHour/PSPowerHour/issues/new)!  
 
 Once you fill out an issue, we'll work with you on timing
 
-### What do I talk about?
+### What should I talk about?
 
 Anything!  Demo a module or function that you wrote, or that you use often.  Describe a helpful tip or trick that you think is worth sharing with the audience.  This is up to you!
 
@@ -30,6 +30,21 @@ Include info the audience will find helpful:
 Anything under 10 minutes!  Don't try to fill the whole 10 minutes, only show us what we need to see - only have 5 minutes of material?  Even better!
 
 Oh.  In case it's not clear: it's a hard limit on 10 minutes.  If you need more time, consider talking at a local or remote user group!
+
+### When will I talk?
+
+* We'll work with you in your GitHub issue proposal
+* We'll try to give you a two week notice for the session you're scheduled to demo in
+* We may occassionally hit a cut off and need to reschedule you for the next session
+* We'll include an order-of-operations and indicate demos that may be at risk of being rescheduled
+
+### Rescheduled?  Why!
+
+So!  Let's say we have an hour.  We ask folks for demos under 10 minutes.  Some of the best demos I've seen have been ~5 minutes.  If we schedule only 6 sessions (6 * 10 minutes = 1 hour), and we get a bunch of 5 minute demos, we'll miss out on the chance to have more demos!
+
+On the other hand, if we assume a 6 minute average demo (10 * 6 minutes = 1 hour), if several of those demos go up to 10 minutes, we'll go a bit beyond the scheduled hour.
+
+We'll try to keep this balanced, but there's always a chance that later sessions will be bumped.  You'll get precedence at the next session.  We'll try to avoid this for folks making accomodations for our timezone (e.g. if you're demoing at midnight or 6:00 AM!)
 
 ### What happens the day of?
 
