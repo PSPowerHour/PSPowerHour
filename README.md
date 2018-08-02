@@ -38,6 +38,17 @@ Oh.  In case it's not clear: it's a hard limit on 10 minutes.  If you need more 
 * We may occassionally hit a cut off and need to reschedule you for the next session
 * We'll include an order-of-operations and indicate demos that may be at risk of being rescheduled
 
+### How are talks scheduled?
+
+* We'll pick the 10 oldest, open proposals (only one talk per person)
+* We'll review the timezones of the speakers and work to make sure they're scheduled in the most convenient / sensible way we can manage
+* We'll do our best to make sure we won't have duplicate content _in the same PSPowerHour_.
+  * There's tons of value in every speaker's individual take on a topic, but we want to get a good spread of topics each event.
+    Just because a topic has been covered or touched on before doesn't make it a bad topic for a future talk!
+* We'll do our best to randomize the order of speakers as much as possible while remaining mindful of and sensitive to timezones.
+  * This is to ensure a spread of both speakers and topics, so we don't end up with a cluster of, for example, three related-topic-talks in a row.
+  * We're also reserving the right to do a little serendipitous ordering to make demos that _are_ on related topics have a neat flow - so, for example, if one person is talking about 'what is Plaster' that talk goes before the 'tips and tricks for writing Plaster manifests' talk.
+
 ### Rescheduled?  Why!
 
 So!  Let's say we have an hour.  We ask folks for demos under 10 minutes.  Some of the best demos I've seen have been ~5 minutes.  If we schedule only 6 sessions (6 * 10 minutes = 1 hour), and we get a bunch of 5 minute demos, we'll miss out on the chance to have more demos!
