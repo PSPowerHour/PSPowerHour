@@ -41,7 +41,7 @@ This is up to you!  _Demo_ doesn't mean _live demo only_
 * Notepad (maybe not)
 * Something else
 
-Just make sure you zoom enough for your audience to see
+Zoom in so it just fits in the whole screen. Don't be shy.. Bigger is better!
 
 ### How long do I talk?
 
