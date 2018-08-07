@@ -8,7 +8,7 @@ Think of this like a virtual PowerShell User Group, with a lightning-demo format
 
 We'll be streaming on [YouTube](https://www.youtube.com/channel/UCtHKcGei3EjxBNYQCFZ3WNQ)
 
-### How do I submit a demo proposal?
+### How do I submit a proposal?
 
 Just [submit an issue](https://github.com/PSPowerHour/PSPowerHour/issues/new)!
 We need a title, your name, and a brief abstract — that's enough to get started!
@@ -27,6 +27,21 @@ Include info the audience will find helpful:
 * How does it work? This is a demo after all!
 * Why might the audience use this?
 * Where can they find more?
+
+### What should I present with?
+
+This is up to you!  _Demo_ doesn't mean _live demo only_
+
+* Slides
+* Slides with PowerShell on them
+* The console
+* VS Code
+* PowerShell ISE
+* Pre-recorded video that you narrate
+* Notepad (maybe not)
+* Something else
+
+Zoom in so it just fits in the whole screen. Don't be shy.. Bigger is better!
 
 ### How long do I talk?
 
