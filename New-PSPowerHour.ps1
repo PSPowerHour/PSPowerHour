@@ -88,7 +88,7 @@ $data | ForEach-Object {
         StandBy     = if ($sequence -gt 5) {"Yes"} else {"No"}
     }
     $sequence++
-} | Select-Object Order, IssueNumber, By, Title, StandBy ConvertTo-Markdown
+} | Select-Object Order, IssueNumber, By, Title, StandBy | ConvertTo-Markdown
 
 #ToDo
 # Order of columns is being messed with in the custom function to convert the table to markdown. Have not reviewed fully to get that straighted out
