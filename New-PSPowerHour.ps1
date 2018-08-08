@@ -9,21 +9,16 @@
 param(
     [string]$GitHubToken
 )
+$global:gitHubApiToken
+foreach ($m in 'PowerShellForGitHub', 'PSMarkdown') {
+    if (-not (Get-Module $m -ListAvailable)) {
+        throw "Please install $m module"
+    }
+    else {
+        Import-Module $m
+    }
+}
 
-if (-not (Get-Module PowerShellForGitHub)) {
-    Write-Output "Please install PowerShellForGitHub module!"
-}
-if (-not (Get-Module PSMarkdown -ListAvailable)) {
-    Write-Output "Please install PSMarkdown module!"
-}
-
-try {
-    Import-Module PowerShellForGitHub, PSMarkdown
-}
-catch {
-    Write-Warning "Issue loading modules"
-    $_
-}
 $data = Get-GitHubIssueForRepository -repositoryUrl 'https://github.com/pspowerhour/pspowerhour' -gitHubAccessToken $GitHubToken |
     Where-Object {$_.labels.name -eq 'proposal'} | Select-Object Number, Title, user | sort-object Number | select-object -first 10
 [int]$sequence = 1
