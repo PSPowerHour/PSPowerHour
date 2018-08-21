@@ -8,6 +8,14 @@ Think of this like a virtual PowerShell User Group, with a lightning-demo format
 
 We'll be streaming on [YouTube](https://www.youtube.com/channel/UCtHKcGei3EjxBNYQCFZ3WNQ)
 
+### When's the next PowerHour?
+
+We'll add an agenda at least a week ahead of each PowerHour.  To find the date and more details:
+
+* Check for the latest [Agenda](Agenda.md)
+* Sort for the most recent folder under materials:  For example, [materials/2018-08-21](materials/2018-08-21)
+* Watch #PSPowerHour on Twitter
+
 ### How do I submit a proposal?
 
 Just [submit an issue](https://github.com/PSPowerHour/PSPowerHour/issues/new)!
