@@ -1,5 +1,7 @@
 # PowerHour 2018-08-21
 
+[Youtube](https://www.youtube.com/watch?v=fDQvdIEda_c)
+
 ## Agenda
 
 Title                                                                                      | Name
