@@ -6,7 +6,6 @@ Title                                                                           
 ------------------------------------------------------------------------------------------ | ----------------------------------------------------
 [Default Parameter Values](potatoqualitee)                                                 | [Chrissy LeMaire](https://github.com/potatoqualitee)
 [The dime tour: PowerShell + Excel = Better Together](dfinke)                              | [Doug Finke](https://github.com/dfinke)
-[Import Excel files to SQL Server in less than 20 lines of code, seriously!!](mattcushing) | [Matt Cushing](https://github.com/mattcushing)
 [Setting Trace Flags as Startup Parameters with dbatools](awickham10)                      | [Andrew Wickham](https://github.com/awickham10)
 [Applying SQL Server Data Compression with dbatools](jpomfret)                             | [Jess Pomfret](https://github.com/jpomfret)
 [Better, Safer SQL Queries from PowerShell](alevyinroc)                                    | [Andy Levy](https://github.com/alevyinroc)
