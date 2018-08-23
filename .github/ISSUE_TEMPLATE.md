@@ -1,3 +1,5 @@
+```yaml
+
 Title: "Your Title"
 Name: "Your Name"
 Timezone: 'Output from `(Get-TimeZone).Id`'
@@ -5,7 +7,7 @@ Abstract: |
   A sentence or paragraph describing what you'll demo
 Twitter: 'Optional. Your Twitter @handle'
 SlackID: 'Optional. Your @name on [powershell.slack.com](bit.ly/psslack)'
-Blog: Optional. Blog URL
+Blog: 'Optional. Blog URL'
 
 #####################################################
 # IMPORTANT
@@ -34,3 +36,4 @@ Blog: Optional. Blog URL
 # Twitter, SlackID, and Blog are optional but help us and viewers find you!
 # If you don't specify Twitter or SlackID, be sure to keep track of your GitHub notifications!
 # Simple PowerShell function to generate this coming soon
+```
