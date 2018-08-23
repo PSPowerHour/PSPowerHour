@@ -130,6 +130,11 @@ Read-host "Ready...";
 Get-Safely;
 
 <#
+For more about SQL Injection, check out Bert Wagner's blog posts and GroupBy session:
+
+https://bertwagner.com/category/sql-injection/
+https://groupby.org/conference-session-abstracts/sql-injection-attacks-is-your-data-secure/
+
 Andy Levy
 @alevyinroc
 https://therestisjustcode.wordpress.com/
