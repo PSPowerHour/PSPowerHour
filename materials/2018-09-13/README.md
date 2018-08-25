@@ -1,0 +1,15 @@
+# PowerHour 2018-09-13
+
+## Agenda
+
+Name                                                  | Title                                                                                     
+----------------------------------------------------- | ------------------------------------------------------------------------------------------
+[Matt Cushing](https://github.com/mattcushing)        | [Import Excel files to SQL Server in less than 20 lines of code, seriously!!](mattcushing)
+[Jared Atkinson](https://github.com/jaredcatkinson)   | [Intro to PSReflect-Functions](jaredcatkinson)                                            
+[Francisco Navarro](https://github.com/ctmcisco)      | [Customizing a Windows Desktop using Boxstarter + Chocolatey + GitHub Gist](ctmcisco)     
+[Brandon Olin](https://github.com/devblackops)        | [Infrastructure Testing with the Operation Validation Framework](devblackops)             
+[Kieran Jacobsen](https://github.com/kjacobsen)       | [Submitting to Planet PowerShell](kjacobsen)                                              
+[Mike Shepard](https://github.com/MikeShepard)        | [WPFBot3000 demo](MikeShepard)                                                            
+[Thomas Rayner](https://github.com/ThmsRynr)          | [Writing and Deploying a VSTS Extension in 10 Minutes or Less](ThmsRynr)                  
+[Stephen Valdinger](https://github.com/steviecoaster) | [Advanced BurntToast Notifications](steviecoaster)                                        
+
