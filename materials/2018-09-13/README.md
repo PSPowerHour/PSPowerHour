@@ -4,7 +4,7 @@
 
 Name                                                  | Title
 ----------------------------------------------------- | ------------------------------------------------------------------------------------------
-[Matt Cushing](https://github.com/mattcushing)        | [Import Excel files to SQL Server in less than 20 lines of code, seriously!!](mattcushing)
+[Shawn Melton](https://github.com/wsmelton)           | [Managing Docker in Visual Studio Code](wsmelton)
 [Jared Atkinson](https://github.com/jaredcatkinson)   | [Intro to PSReflect-Functions](jaredcatkinson)
 [Francisco Navarro](https://github.com/ctmcisco)      | [Customizing a Windows Desktop using Boxstarter + Chocolatey + GitHub Gist](ctmcisco)
 [Brandon Olin](https://github.com/devblackops)        | [Infrastructure Testing with the Operation Validation Framework](devblackops)
