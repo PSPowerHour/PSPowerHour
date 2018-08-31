@@ -1,4 +1,4 @@
-# PowerHour 2018-09-13
+# PowerHour 2018-09-13 6:00 PM EST
 
 ## Agenda
 
