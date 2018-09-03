@@ -90,7 +90,7 @@ AS
 
 ### Outcome
  - I have made a couple of weeks what would take me several months.
- - "_You work to fast for us_"
+ - "_You work too fast for us_"
 
 <br>
 <br>
@@ -100,5 +100,4 @@ During the presentation, while running the trigger conversion (@[31m47s](https:/
 The hashtable entries needs to be one per line, hence the error.
 
 Here is the video that shows the error and and how to fix.
-
-![Fix hastable entries](https://claudioessilvaeu.files.wordpress.com/2018/08/fix_hastable_entries.gif)
+[Fix hastable entries](https://claudioessilvaeu.files.wordpress.com/2018/08/fix_hastable_entries.gif)
