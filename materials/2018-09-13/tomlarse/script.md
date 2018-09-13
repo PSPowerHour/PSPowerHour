@@ -1,7 +1,5 @@
 # Introduction
 
-Only in windows powershell
-
 ## The ipconfigs
 
 ### `ipconfig`
@@ -70,10 +68,6 @@ PS 6.1
 ### `netstat -ano`
 
 `Get-NetTCPConnection`
-
-`netstat -ano | findstr "139"`
-Then maybe
-`netstat -ano | findstr "139 listening"`
 
 ## Why
 
