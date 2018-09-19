@@ -4,3 +4,5 @@
 * **Twitter**: @scrthq
 * **SlackID**: @scrthq
 * **Blog**: https://ferrell.io/
+* **Demo Code**: https://github.com/scrthq/VaporShell-DynamicTemplateDemo
+* **Slide Deck**: https://gitpitch.com/scrthq/VaporShell-DynamicTemplateDemo/master?p=GitPitch
