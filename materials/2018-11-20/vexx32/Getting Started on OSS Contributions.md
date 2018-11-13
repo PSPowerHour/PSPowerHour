@@ -21,7 +21,7 @@ The first things you will need in order to make this happen are:
 Although, depending on where the original project is hosted, you may instead wish to use a BitBucket
 or other git-hosting website for ease of interaction.
 
-### Installing Git
+### Install Git
 
 [Download Git](https://git-scm.com/downloads)
 
@@ -33,7 +33,11 @@ instructions work with the command line primarily.
 If your editor of choice (I'll be using VS Code here) includes Git integration, these GUI options
 are often much easier to use.
 
-### Forking the Repo
+Once done, verify `git` has been added to your `$env:Path` variable by calling it from a console
+window; this guide will assume you're using PowerShell as your console of choice, as it will be
+required to set up your build environment.
+
+### Fork the Repo
 
 [Sign up to GitHub](https://github.com/join)
 
@@ -45,4 +49,34 @@ to create new branches and do all necessary preparation for a pull request.
 To **fork** the [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) repository, go to
 the main repository page and click the **Fork** button in the top-right of the main page.
 
-![Fork the PowerShell Repository!](./images/PowerShell-Repo.png)
+![Fork the PowerShell repository](./images/PowerShell-Repo.png)
+
+This will create a copy of the repository housed under your own account.
+
+### Clone Your PowerShell Repository
+
+Once you've been redirected to the new repository page, you can get the clone link from your own
+repository.
+Select the green **Clone or Download** button, and then copy the link from the popup pane.
+
+![Get your Clone link](./images/Clone-Your-PowerShell-Repo.png)
+
+Now, drop into your favourite command line console and navigate to a folder you would like to clone
+the repository to.
+To clone the repository, enter the following command:
+
+```powershell
+git clone <URL> [<Folder>]
+```
+
+Where `<URL>` is the URL to the `.git` file that the clone link specifies, and `<Folder>` is the
+folder you would like the repository cloned into.
+The default folder `git` creates matches the name of the repository itself.
+In this case, the URL should be `https://github.com/PowerShell/PowerShell.git` and the folder
+name can be left blank (`git`)
+Your full command should look like this:
+
+```powershell
+git clone https://github.com/PowerShell/PowerShell.git
+```
+
