@@ -73,10 +73,24 @@ Where `<URL>` is the URL to the `.git` file that the clone link specifies, and `
 folder you would like the repository cloned into.
 The default folder `git` creates matches the name of the repository itself.
 In this case, the URL should be `https://github.com/PowerShell/PowerShell.git` and the folder
-name can be left blank (`git`)
+name can be left blank (`git` will create a folder called `PowerShell` for us).
 Your full command should look like this:
 
 ```powershell
 git clone https://github.com/PowerShell/PowerShell.git
 ```
 
+### Add the Main PowerShell Repository as a Remote
+
+What we're going to do now will allow you to keep your own repository up to speed with the official
+PowerShell repository without having to constantly make merge commits or otherwise terribly clutter
+your commit history.
+
+```powershell
+git remote add upstream https://github.com/PowerShell/PowerShell.git
+```
+
+`upstream` will be the name of the new remote.
+You can use whatever name you prefer, but I would recommend picking something you can easily recall.
+
+### Creating a New Branch
