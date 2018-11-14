@@ -94,3 +94,56 @@ git remote add upstream https://github.com/PowerShell/PowerShell.git
 You can use whatever name you prefer, but I would recommend picking something you can easily recall.
 
 ### Creating a New Branch
+
+For this, I like to use VS Code's UI options to create new branches, but you can also just use the
+`git checkout -b <NAME>` command to create a branch and switch to it.
+
+### Keeping Branches Up to Date
+
+The official PowerShell repository is far from frozen, and you'll often see that they've pushed a
+handful of new commits every couple of days. To keep pace, you need to do two things:
+
+1. Keep your master branch clean and use it only to receive updates from the main `master` branch.
+    * In other words, _always_ operate on a secondary branch when making changes, never `master`.
+2. Periodically rebase your side branch using the master branch to incorporate new commits.
+
+#### Pulling Upstream Commits Into Your Master Branch
+
+Note I used the word `upstream` once again; this is what that remote pertains to.
+Every few days, or probably at least once a week &mdash; and _definitely_ before submitting any kind
+of pull request or creating a new branch, you should pull in commits from your upstream source on an
+open source project.
+In our case, that's the main PowerShell repository, and that's why we configured an upstream remote.
+
+To pull in commits from our upstream remote, we can use the following commands:
+
+```powershell
+git checkout master # If we're not currently on master branch
+git pull upstream master
+git push # to update our original remote master branch
+```
+
+#### Rebasing A Branch
+
+There are a couple of slightly more involved steps here that must be followed, or else you may find
+that you multiply your commits unnecessarily.
+Essentially what we'll be doing is temporarily removing our own commits on the branch, adding in the
+new commits from our `master` branch, and then reapplying the commits from our branch.
+`git` will be doing most of the heavy lifting, as per usual.
+I like to use the interactive rebase tools to help tidy my commits at the same time.
+
+```powershell
+git checkout <BRANCH_NAME> # make sure you're on the right branch!
+git rebase -i master
+```
+
+After a few moments processing, `git` will give you a commits file to edit, where you can opt to
+`squash` (combine), `drop` (delete), or `pick` (keep) specific commits.
+Once done, save and close the file.
+If you're using Git for Windows, the default editor is a Nano-like interface; once you're done
+editing, just hit `Ctrl+X` to close the file, following by `Y` to save changes.
+
+_Notes for rebasing:_
+
+* If you encounter a conflict, always accept the incoming change until you reach your own commits
+*
