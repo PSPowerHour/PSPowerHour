@@ -1,4 +1,20 @@
-# Getting Started on OSS Contributions
+# Table of Contents
+
+[Getting Started on OSS Contributions - The Git Hurdle](#getting-started-on-oss-contributions-the-git-hurdle)
+
+* [Learn By Example: Contributing to PowerShell Core](#learn-by-example-contributing-to-powershell-core)
+    * [Install Git](#install-git)
+    * [Fork the Repo](#fork-the-repo)
+    * [Clone Your Fork](#clone-your-fork)
+    * [Add the Main PowerShell Repository as a Remote](#add-the-main-powershell-repository-as-a-remote)
+    * [Creating a New Branch](#creating-a-new-branch)
+    * [Submitting a Pull Request](#submitting-a-pull-request)
+* [Keeping Branches Up to Date](#keeping-branches-up-to-date)
+    * [Pulling Upstream Commits Into Your Master Branch](#pulling-upstream-commits-into-your-master-branch)
+    * [Rebasing A Branch](#rebasing-a-branch)
+
+
+# Getting Started on OSS Contributions - The Git Hurdle
 
 A lot of us PowerShell folks have one foot in the developers' dorm room door in our daily life.
 I have seen on several occasions that the main barrier to contributing back to the tools we use can
@@ -53,7 +69,7 @@ the main repository page and click the **Fork** button in the top-right of the m
 
 This will create a copy of the repository housed under your own account.
 
-### Clone Your PowerShell Repository
+### Clone Your Fork
 
 Once you've been redirected to the new repository page, you can get the clone link from your own
 repository.
@@ -98,7 +114,29 @@ You can use whatever name you prefer, but I would recommend picking something yo
 For this, I like to use VS Code's UI options to create new branches, but you can also just use the
 `git checkout -b <NAME>` command to create a branch and switch to it.
 
-### Keeping Branches Up to Date
+### Submitting a Pull Request
+
+When you've some changes to contribute, it's time to submit your Pull Request and open it up to
+review. You'll see the CI/CD triggers kick in and run the standard battery of tests, including code
+style checks and tests for PowerShell features and cmdlets.
+
+Head on back to your repository page on Github and select the Compare button from your branch's main
+Code page. Select the parent repository's `master` branch, and you're ready to roll!
+
+![Open the Pull Request](./Images/Opening-Pull-Request.png)
+
+Make sure you give your pull request a _descriptive_ and relevant title, as well as summarising the
+changes you've made in the PR description.
+
+_Note:_ if you're opening the pull request to fix an outstanding issue, be sure to notate the issue
+you're fixing by including `Fixes #<IssueNumber>` in the description. Use of this verb or similar
+verbs in its place (e.g., `Resolves`, `Closes`) will allow Github to automatically mark the relevant
+issue as closed when your changes are merged into the master branch.
+
+From this point on, the PowerShell team and repository collaborators will be able to check out your
+work and offer feedback.
+
+## Keeping Branches Up to Date
 
 The official PowerShell repository is far from frozen, and you'll often see that they've pushed a
 handful of new commits every couple of days. To keep pace, you need to do two things:
@@ -107,7 +145,7 @@ handful of new commits every couple of days. To keep pace, you need to do two th
     * In other words, _always_ operate on a secondary branch when making changes, never `master`.
 2. Periodically rebase your side branch using the master branch to incorporate new commits.
 
-#### Pulling Upstream Commits Into Your Master Branch
+### Pulling Upstream Commits Into Your Master Branch
 
 Note I used the word `upstream` once again; this is what that remote pertains to.
 Every few days, or probably at least once a week &mdash; and _definitely_ before submitting any kind
@@ -123,7 +161,7 @@ git pull upstream master
 git push # to update our original remote master branch
 ```
 
-#### Rebasing A Branch
+### Rebasing A Branch
 
 There are a couple of slightly more involved steps here that must be followed, or else you may find
 that you multiply your commits unnecessarily.
@@ -146,4 +184,18 @@ editing, just hit `Ctrl+X` to close the file, following by `Y` to save changes.
 _Notes for rebasing:_
 
 * If you encounter a conflict, always accept the incoming change until you reach your own commits
-*
+    * In other words, don't overwrite previous commits with your changes; leave that for your actual commits to do
+* If you notice it's getting out of hand with conflicts, you always have the `git rebase --abort` option!
+
+And, _most_ importantly, VS Code (and probably other editors) have a usually-very-handy Sync button;
+***avoid*** this when rebasing.
+When you're done rebasing, instead of just syncing, or doing a regular `git push`, you will notice
+if you check `git status` (it will be shown in the Sync button display in VS Code as well) that you
+are _both_ ahead and behind the remote branch after a rebase.
+**This is normal.**
+
+To complete the rebase withot multiplying your commits, _always_ make sure that the final step is:
+
+```powershell
+git push --force-with-lease
+```
