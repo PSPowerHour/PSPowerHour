@@ -1,6 +1,6 @@
 # PowerHour 2018-09-19 6:00 PM EST
 
-[Youtube - Entire LiveSream](https://www.youtube.com/watch?v=UTuwnDtaTWQ)
+[Youtube - Entire LiveStream](https://www.youtube.com/watch?v=UTuwnDtaTWQ)
 
 ## Agenda
 
