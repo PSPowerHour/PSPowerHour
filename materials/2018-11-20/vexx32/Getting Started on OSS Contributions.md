@@ -17,6 +17,8 @@
 Twitter: [@vexx32](https://twitter.com/vexx32)
 Blog: [Clear-Code](https://vexx32.github.io)
 
+or come find me on [Slack](https://j.mp/psslack) / [Discord](https://j.mp/psdiscord)!
+
 # Getting Started on OSS Contributions - The Git Hurdle
 
 A lot of us PowerShell folks have one foot in the developers' dorm room door in our daily life.
