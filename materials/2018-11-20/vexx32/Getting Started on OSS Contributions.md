@@ -14,6 +14,8 @@
     * [Pulling Upstream Commits Into Your Master Branch](#pulling-upstream-commits-into-your-master-branch)
     * [Rebasing A Branch](#rebasing-a-branch)
 
+Twitter: [@vexx32](https://twitter.com/vexx32)
+Blog: [Clear-Code](https://vexx32.github.io)
 
 # Getting Started on OSS Contributions - The Git Hurdle
 
