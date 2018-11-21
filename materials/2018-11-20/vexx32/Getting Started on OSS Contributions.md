@@ -1,20 +1,18 @@
 # Table of Contents
 
-[Contact / Q&A / Further Reading](#contact-/-qa-/-further-reading)
-
-[Getting Started on OSS Contributions - The Git Hurdle](#getting-started-on-oss-contributions---the-git-hurdle)
-
-* [Learn By Example: Contributing to PowerShell Core](#learn-by-example-contributing-to-powershell-core)
-    * [Install Git](#install-git)
-    * [Fork the Repo](#fork-the-repo)
-    * [Clone Your Fork](#clone-your-fork)
-    * [Add the Main PowerShell Repository as a Remote](#add-the-main-powershell-repository-as-a-remote)
-    * [Creating a New Branch](#creating-a-new-branch)
-    * [Submitting a Pull Request](#submitting-a-pull-request)
-    * [Building PowerShell](#building-powershell)
-* [Keeping Branches Up to Date](#keeping-branches-up-to-date)
-    * [Pulling Upstream Commits Into Your Master Branch](#pulling-upstream-commits-into-your-master-branch)
-    * [Rebasing A Branch](#rebasing-a-branch)
+* [Contact / Q&A / Further Reading](#contact-/-qa-/-further-reading)
+* [Getting Started on OSS Contributions - The Git Hurdle](#getting-started-on-oss-contributions---the-git-hurdle)
+    * [Learn By Example: Contributing to PowerShell Core](#learn-by-example-contributing-to-powershell-core)
+        * [Install Git](#install-git)
+        * [Fork the Repo](#fork-the-repo)
+        * [Clone Your Fork](#clone-your-fork)
+        * [Add the Main PowerShell Repository as a Remote](#add-the-main-powershell-repository-as-a-remote)
+        * [Creating a New Branch](#creating-a-new-branch)
+        * [Submitting a Pull Request](#submitting-a-pull-request)
+        * [Building PowerShell](#building-powershell)
+    * [Keeping Branches Up to Date](#keeping-branches-up-to-date)
+        * [Pulling Upstream Commits Into Your Master Branch](#pulling-upstream-commits-into-your-master-branch)
+        * [Rebasing A Branch](#rebasing-a-branch)
 
 # Contact / Q&A / Further Reading
 
