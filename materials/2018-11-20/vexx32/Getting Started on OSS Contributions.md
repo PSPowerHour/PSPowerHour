@@ -1,6 +1,6 @@
 # Table of Contents
 
-[Getting Started on OSS Contributions - The Git Hurdle](#getting-started-on-oss-contributions-the-git-hurdle)
+[Getting Started on OSS Contributions - The Git Hurdle](#getting-started-on-oss-contributions---the-git-hurdle)
 
 * [Learn By Example: Contributing to PowerShell Core](#learn-by-example-contributing-to-powershell-core)
     * [Install Git](#install-git)
@@ -9,6 +9,7 @@
     * [Add the Main PowerShell Repository as a Remote](#add-the-main-powershell-repository-as-a-remote)
     * [Creating a New Branch](#creating-a-new-branch)
     * [Submitting a Pull Request](#submitting-a-pull-request)
+    * [Building PowerShell](#building-powershell)
 * [Keeping Branches Up to Date](#keeping-branches-up-to-date)
     * [Pulling Upstream Commits Into Your Master Branch](#pulling-upstream-commits-into-your-master-branch)
     * [Rebasing A Branch](#rebasing-a-branch)
@@ -108,6 +109,13 @@ git remote add upstream https://github.com/PowerShell/PowerShell.git
 
 `upstream` will be the name of the new remote.
 You can use whatever name you prefer, but I would recommend picking something you can easily recall.
+
+### Building PowerShell
+
+Building PS is quite straightforward:
+
+1. `Import-Module .\build.psm1`
+2. `Start-PSBuild -Clean`
 
 ### Creating a New Branch
 
