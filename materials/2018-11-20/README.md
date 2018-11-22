@@ -5,7 +5,7 @@
 Title                                                                                | Name   | Time
 ------------------------------------------------------------------------------------ | ----------------------------------------------------- | --------------------
 [Sharing: What's in it for me!?](glennsarti)                                         | [Glenn Sarti](https://github.com/glennsarti) | 1 m 3 s
-[Using the Automated Lab Framework to deploy a lab on Hyper-V Server 2016](ctmcisco) | [Francisco Navarro](https://github.com/ctmcisco) | 
+[Using the Automated Lab Framework to deploy a lab on Hyper-V Server 2016](ctmcisco) | [Francisco Navarro](https://github.com/ctmcisco) | 11 m
 [ChatOps with Microsoft Teams](devblackops)                                          | [Brandon Olin](https://github.com/devblackops) | 
 [Getting Started with PowerShell Core in AWS Lambda](scrthq)                         | [Nate Ferrell](https://github.com/scrthq) | 
 [Logging to Graylog with PSFramework](awickham10)                                    | [Andrew Wickham](https://github.com/awickham10) | 
