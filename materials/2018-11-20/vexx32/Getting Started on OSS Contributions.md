@@ -72,7 +72,7 @@ to create new branches and do all necessary preparation for a pull request.
 To **fork** the [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) repository, go to
 the main repository page and click the **Fork** button in the top-right of the main page.
 
-![Fork the PowerShell repository](./Images/PowerShell-Repo.png)
+![Fork the PowerShell repository](./Images/PowerShell-Repo.PNG)
 
 This will create a copy of the repository housed under your own account.
 
@@ -82,7 +82,7 @@ Once you've been redirected to the new repository page, you can get the clone li
 repository.
 Select the green **Clone or Download** button, and then copy the link from the popup pane.
 
-![Get your Clone link](./Images/Clone-Your-PowerShell-Repo.png)
+![Get your Clone link](./Images/Clone-Your-PowerShell-Repo.PNG)
 
 Now, drop into your favourite command line console and navigate to a folder you would like to clone
 the repository to.
