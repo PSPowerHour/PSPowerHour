@@ -4,3 +4,4 @@
 * **Twitter**: [@halbaradkenafin](https://twitter.com/halbaradkenafin)
 * **SlackID**: @halbarad
 * **Blog**: https://chrislgardner.github.io
+* [Example Repo](https://github.com/ChrisLGardner/gitrebase-example)
