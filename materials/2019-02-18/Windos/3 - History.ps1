@@ -27,7 +27,7 @@ foreach ($i in 1..100) {
     }
 
     if ($i % 5 -eq 0) {
-        Submit-BTNotification -Content $Content1 -SequenceNumber 1 -DataBinding $DataBinding -UniqueIdentifier RapidUpdate
+        Submit-BTNotification -Content $Content1 -SequenceNumber $i -DataBinding $DataBinding -UniqueIdentifier RapidUpdate
 
         Start-Sleep -Milliseconds 500
     }
