@@ -1,0 +1,6 @@
+site_name: Demo docs
+repo_url: https://dev.azure.com/codesademo/docsdemo
+theme: material
+markdown_extensions:
+  - extra
+  - sane_lists
