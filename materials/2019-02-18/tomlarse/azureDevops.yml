@@ -1,0 +1,24 @@
+resources:
+- repo: self
+
+pool:
+  vmImage: Hosted VS2017
+  demands: azureps
+
+steps:
+- powershell: |
+   python -m pip install --upgrade pip
+   pip install mkdocs
+   pip install mkdocs-material
+   mkdocs build
+  displayName: 'Compile mkdocs site'
+
+- task: AzureFileCopy@2
+  displayName: 'Upload files to blob'
+  inputs:
+    SourcePath: site
+    azureSubscription: 
+    Destination: AzureBlob
+    storage: psphdemo
+    ContainerName: '$web'
+
