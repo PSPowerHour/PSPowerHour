@@ -4,3 +4,5 @@
 * **Twitter**: [@ti83](https://twitter.com/ti83)
 * **SlackID**: @tom-inge
 * **Blog**: https://blog.codesalot.com
+
+URL to the [demo docs](https://psphdemo.z16.web.core.windows.net) (Might not be there forever :))
