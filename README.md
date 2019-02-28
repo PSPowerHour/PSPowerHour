@@ -8,6 +8,16 @@ Think of this like a virtual PowerShell User Group, with a lightning-demo format
 
 We'll be streaming on [YouTube](https://www.youtube.com/channel/UCtHKcGei3EjxBNYQCFZ3WNQ)
 
+#### Past PowerHours:
+
+- [PSPowerHour 001: 2018-08-21](https://www.youtube.com/watch?v=fDQvdIEda_c)
+- [PSPowerHour 002: 2018-08-30](https://www.youtube.com/watch?v=3Yq4sVWJrWo)
+- [PSPowerHour 003: 2018-09-13](https://www.youtube.com/watch?v=sRdoCrA-PnU)
+- [PSPowerHour 004: 2018-09-19](https://www.youtube.com/watch?v=UTuwnDtaTWQ)
+- [PSPowerHour 005: 2018-11-20](https://www.youtube.com/watch?v=kt-nrHbgTns)
+- [PSPowerHour 006: 2018-12-18](https://www.youtube.com/watch?v=iGEFqRLwdzg)
+- [PSPowerHour 007: 2019-02-18](https://www.youtube.com/watch?v=7uYDux0HJ7w)
+
 ### When's the next PowerHour?
 
 We'll add an agenda at least a week ahead of each PowerHour.  To find the date and more details:
