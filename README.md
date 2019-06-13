@@ -17,6 +17,7 @@ We'll be streaming on [YouTube](https://www.youtube.com/channel/UCtHKcGei3EjxBNY
 - [PSPowerHour 005: 2018-11-20](https://www.youtube.com/watch?v=kt-nrHbgTns)
 - [PSPowerHour 006: 2018-12-18](https://www.youtube.com/watch?v=iGEFqRLwdzg)
 - [PSPowerHour 007: 2019-02-18](https://www.youtube.com/watch?v=7uYDux0HJ7w)
+- [PSPowerHour 008: 2019-06-13](https://www.youtube.com/watch?v=9go5hF5S7Ig)
 
 ### When's the next PowerHour?
 
