@@ -18,7 +18,6 @@ class ComplexTransformAttribute : ArgumentTransformationAttribute {
 
 }
 
-
 function Get-PolarForm {
     [CmdletBinding()]
     param(
