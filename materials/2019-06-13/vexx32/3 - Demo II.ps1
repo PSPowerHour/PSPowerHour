@@ -31,6 +31,7 @@ class ComplexTransformAttribute : ArgumentTransformationAttribute {
                 $Double = "[0-9]+(\.[0-9]+)?"
                 if ($_.Trim() -match "^${Double}$") {
                     $Matches[0] -as [double]
+                    continue
                 }
 
                 if ($_.Trim() -match "^(?<Imaginary>${Double})i$") {
