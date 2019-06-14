@@ -1,4 +1,4 @@
-﻿<#
+<#
     We're gonna code an ArgumentTransformationAttribute live!
 #>
 

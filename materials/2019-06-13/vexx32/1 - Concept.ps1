@@ -1,4 +1,4 @@
-﻿<#
+<#
     Take a function, any function...
 #>
 
@@ -24,7 +24,7 @@ Get-BasicLength -Path .\README.md
 function Get-ImplicitLength {
     [CmdletBinding()]
     param(
-        [System.IO.FileSystemInfo]
+        [System.IO.FileInfo]
         $Path
     )
 
@@ -34,9 +34,14 @@ function Get-ImplicitLength {
 # Demonstration
 Get-ImplicitLength -Path .\README.md
 
+# Oops...
+$Item = Get-Item .\README.md
+Get-ImplicitLength -Path $Item.FullName
+
 <#
-    - This **only** properly handles full paths.
+    - This **only** properly handles full paths. Relative paths end up sourcing from [Environment]::CurrentDirectory
     - We lose the flexibility of Get-Item.
+    - We can only handle **files**.
     - We don't have any control over the error messages this emits if the binding fails.
     - Proper handling of alternate input type usually requires many parameter sets.
 #>

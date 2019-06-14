@@ -1,4 +1,4 @@
-﻿<#
+<#
     The Fun Stuff!
 
     Let's make a function that can figure out a complex
