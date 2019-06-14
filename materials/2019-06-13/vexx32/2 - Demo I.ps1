@@ -10,8 +10,22 @@ class ProviderItemTransformAttribute : ArgumentTransformationAttribute {
 
     [object] Transform([EngineIntrinsics] $Intrinsics, [object] $Item) {
 
-        throw [NotImplementedException]::new()
+        $Output = switch ($Item) {
+            { $_ -is [string] } {
+                Get-Item -Path $_
+            }
+            { $_ -is [System.IO.FileInfo] } {
+                $_
+            }
+            { $_ -is [System.IO.DirectoryInfo] } {
+                throw [ArgumentTransformationMetadataException]::new( "Please supply a FileInfo object or a string as input." )
+            }
+            default {
+                $_
+            }
+        }
 
+        return $Output
     }
 
 }
