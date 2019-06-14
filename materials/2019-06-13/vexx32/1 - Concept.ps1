@@ -38,4 +38,5 @@ Get-ImplicitLength -Path .\README.md
     - This **only** properly handles full paths.
     - We lose the flexibility of Get-Item.
     - We don't have any control over the error messages this emits if the binding fails.
+    - Proper handling of alternate input type usually requires many parameter sets.
 #>
